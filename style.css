@@ -73,7 +73,7 @@ body {
 }
 
 .data-profile-photo img {
-  height: 6rem;
+  height: 8rem;
 }
 
 .instagram-login {
@@ -127,3 +127,33 @@ body {
   background-image: url('./img/googleplay-button.png');
 }
 
+/* media queries */
+
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #fff;
+  }
+  .instagram-wrapper {
+    width: 90%;
+  }
+  .data-group {
+    border: 1px solid transparent;
+  }
+  .instagram-phone {
+    display: none;
+  }
+  .instagram-data {
+    width: 100%;
+  }
+  .app-download {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
